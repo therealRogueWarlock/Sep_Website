@@ -1,16 +1,18 @@
 var document, XMLHttpRequest;
+
 // Requesting data from ProjectData.xml
 var xhttp = new XMLHttpRequest();
 xhttp.open("GET", "ProjectData.xml", false);
 xhttp.send();
 var projectDataXmlDoc = xhttp.responseXML;
-//export {projectDataXmlDoc};
+
+
 
 function displayProjectName(n) {
+
     var x = projectDataXmlDoc.getElementsByTagName("projectName");
     return x[n].childNodes[0].nodeValue;
 }
-
 
 function displayPercentageComplete(n) {
     var x = projectDataXmlDoc.getElementsByTagName("percentageComplete");
@@ -21,9 +23,9 @@ function displayPercentageComplete(n) {
 function generateProgressTable(projectsArray){
     var htmlList2 = "";
 
+
     // generate table
     for (var n = 0; n < projectsArray.length; n++) {
-        console.log(n);
         htmlList2 += "<tr>\n" +
         "              <th scope=\"row\">1</th>\n" +
         "              <td><a >" + displayProjectName(n) + "</a></td>\n" +
@@ -38,14 +40,14 @@ function generateProgressTable(projectsArray){
         "              </td>\n" +
         "            </tr>"
 
-        console.log(htmlList2);
+
     }
 
     // setting the innerHtml of the progressTable
-    document.getElementById("progressTable").innerHTML = htmlList2;
+    console.log(document.getElementById("progressTable"));
+    console.log(document.getElementsByClassName("progressTable")[0]);
 
 }
-
 
 
 var projectsArray =
@@ -53,3 +55,4 @@ var projectsArray =
 
 
 generateProgressTable(projectsArray);
+
