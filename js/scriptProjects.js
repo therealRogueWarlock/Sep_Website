@@ -1,4 +1,5 @@
 var document, XMLHttpRequest;
+import {projectDataXmlDoc} from "./scriptIndex";
 
 //Generating the functions for getting and returning projects data
 function displayRequirementName(n) {
@@ -94,7 +95,8 @@ function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
         htmlList2 += "<tr> <td>Requirement</td> <td>Priority</td> <td>Estimated Time</td> <td>Status</td> <td>Description</td> </tr>";
         for (var j = counterFinish; j < (requirements.length + counterFinish); j++) {
             // console.log("Display requirement iteration: " + j);
-            htmlList2 += "<tr><td>" + displayRequirementName(j) + "</td><td>" + displayPriority(j) + "</td><td>" + displayRequirementTimeEstimate(j) + "</td><td>" + displayStatus(j) + "</td><td>" + displayRequirementDescription(j) + "</td></tr>"
+            htmlList2 += "<tr><td>" + displayRequirementName(j) + "</td><td>" + displayPriority(j) + "</td><td>"
+                + displayRequirementTimeEstimate(j) + "</td><td>" + displayStatus(j) + "</td><td>" + displayRequirementDescription(j) + "</td></tr>"
             counter++;
         }
 
@@ -173,12 +175,6 @@ function getAmountOfRequirementsInsideProjects(giveMeArray, target, projectDataX
 
 // table objects
 var requirementList = document.getElementById("RequirementList");
-
-// Requesting data from ProjectData.xml
-var xhttp = new XMLHttpRequest();
-xhttp.open("GET", "ProjectData.xml", false);
-xhttp.send();
-var projectDataXmlDoc = xhttp.responseXML;
 
 
 // fetching array of projects from ProjectData.xml
