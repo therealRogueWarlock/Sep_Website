@@ -82,7 +82,7 @@ function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
 
 
         //Sæt data ind i projekt.
-        htmlList2 += "<tr> <td>Project</td> <td>Priority</td> <td>Estimated Time</td> <td>Status</td> <td>Requirement</td> </tr>";
+        htmlList2 += "<tr> <td>Requirement</td> <td>Priority</td> <td>Estimated Time</td> <td>Status</td> <td>Description</td> </tr>";
         for (var j = counterFinish; j < (requirements.length + counterFinish); j++) {
             // console.log("Display requirement iteration: " + j);
             htmlList2 += "<tr><td>" + displayRequirementName(j, projectDataXmlDoc) + "</td><td>" + displayPriority(j, projectDataXmlDoc) + "</td><td>" + displayRequirementTimeEstimate(j, projectDataXmlDoc) + "</td><td>" + displayStatus(j, projectDataXmlDoc) + "</td><td>" + displayRequirementDescription(j, projectDataXmlDoc) + "</td></tr>"
