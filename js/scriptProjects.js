@@ -16,6 +16,14 @@ function displayRequirementTimeEstimate(n) {
     return x[n].childNodes[0].nodeValue;
 }
 
+/*
+//TODO: Project Status - SBT
+function displayRequirementTimeEstimate(n) {
+    var x = projectDataXmlDoc.getElementsByTagName("requirementTimeEstimate");
+    return x[n].childNodes[0].nodeValue;
+}
+ */
+
 function displayStatus(n) {
     var x = projectDataXmlDoc.getElementsByTagName("status");
     return x[n].childNodes[0].nodeValue;
