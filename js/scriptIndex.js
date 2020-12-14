@@ -21,32 +21,29 @@ function displayPercentageComplete(n) {
 
 
 function generateProgressTable(projectsArray){
-    var htmlList2 = "";
+    var html = "";
 
 
     // generate table
     for (var n = 0; n < projectsArray.length; n++) {
-        htmlList2 += "<tr>\n" +
-        "              <th scope=\"row\">1</th>\n" +
+        html += "<tr>\n" +
+        "              <th scope=\"row\">"+(n+1)+"</th>\n" +
         "              <td><a >" + displayProjectName(n) + "</a></td>\n" +
         "              <td>\n" +
         "                <div class=\"progress\">\n" +
         "                  <div class=\"progress-bar progress-bar-striped progress-bar-animated\" role=\"progressbar\" " +
         "aria-valuenow=\"" + displayPercentageComplete(n)+ "\" aria-valuemin=\"0\" aria-valuemax=\"100\"\n" +
-        "                        style=\"width:65%\">\n" +
+        "                        style=\"width:" + displayPercentageComplete(n)+ "%\">\n" +
         "                    <span class=\"sr-only\">" + displayPercentageComplete(n)+ "% Complete</span>\n" +
         "                  </div>\n" +
         "                </div>\n" +
         "              </td>\n" +
         "            </tr>"
 
-
     }
 
     // setting the innerHtml of the progressTable
-    console.log(document.getElementById("progressTable"));
-    console.log(document.getElementsByClassName("progressTable")[0]);
-
+    document.getElementById("progressTable").innerHTML = html;
 }
 
 
@@ -54,5 +51,7 @@ var projectsArray =
     projectDataXmlDoc.getElementsByTagName("projects");
 
 
-generateProgressTable(projectsArray);
+$(document).ready(function() {
+    generateProgressTable(projectsArray);
+});
 

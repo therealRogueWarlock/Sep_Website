@@ -87,7 +87,14 @@ function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
         htmlList2 += "<b>Deadline:</b> " + displayProjectDeadline(n) + "</div>"; //</COL>
 
         htmlList2 += "<div class='bg-light col-md col-lg-3 col-xl-3 border border-solid text-center text-md-left p-3'>"; //<COL>
-        htmlList2 += "<b>Status:</b> " + displayPercentageComplete(n) + "% complete</div>"; //</COL>
+        htmlList2 += "<b>Status:</b> " + displayPercentageComplete(n) + "% complete";
+
+        htmlList2 += "<div class=\"progress-bar progress-bar-striped progress-bar-animated\" role=\"progressbar\" " +
+            "aria-valuenow=\"" + displayPercentageComplete(n)+ "\" aria-valuemin=\"0\" aria-valuemax=\"100\"\n" +
+            "                        style=\"width:" + displayPercentageComplete(n)+ "%\">\n" +
+            "                    <span class=\"sr-only\">" + displayPercentageComplete(n)+ "% Complete</span>\n" +
+            "                  </div></div>";
+        //</COL>
         //Project Information END
         //Table Creation
         htmlList2 += "<div class='col-lg-12 col-xl'>"; //<COL>
@@ -107,7 +114,6 @@ function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
         htmlList2 += "</table></div></div>"; //</TABLE></COL></ROW>
         //Used for counting through the total list!
         counterFinish = counter;
-
 
     }
     target.innerHTML = htmlList2;

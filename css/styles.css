@@ -56,13 +56,13 @@ height: 256px;
 
 
 /* Used to style our projects table*/
-table{
+#RequirementList table{
     border-collapse: collapse;
     margin: 10px;
 }
 
 
-table tr td{
+#RequirementList table tr td{
     border: solid;
     padding: 5px;
     
