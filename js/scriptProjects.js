@@ -37,15 +37,15 @@ function displayProjectDescription(n) {
 }
 
 function displayProjectStartDate(n) {
-    var x = xmlToDate(projectDataXmlDoc.getElementsByTagName("projectStartDate"));
-    console.log(x);
+    var x = projectDataXmlDoc.getElementsByTagName("projectStartDate");
+    console.log("41: " + x);
     //    return x[n].childNodes[0].nodeValue;
 }
 
 function displayProjectDeadline(n) {
     var x = projectDataXmlDoc.getElementsByTagName("projectDeadline");
-    console.log(x);
-    return x[n].childNodes[0].nodeValue;
+    console.log("47: " + x);
+    //    return x[n].childNodes[0].nodeValue;
 }
 
 function xmlToDate(n) {
