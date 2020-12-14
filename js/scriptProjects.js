@@ -71,19 +71,26 @@ var counterFinish = 0;
 function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
     for (var n = 0; n < projectsArray.length; n++) {
         //Få en counter af projekter inde i dette projekt!
-        htmlList2 += "<div class=" + "row align-items-center m-2 bg-white>";
+        htmlList2 += "<div class=row align-items-center m-2 bg-white>";
         //Display Project Names over Tables
-        htmlList2 += "<div class=" + "col-md-3 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
         htmlList2 += "<b>" + displayProjectName(n) + "</b></div>";
         //Display Project Descriptions over Tables
-        htmlList2 += "<div class=" + "col-md-3 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
         htmlList2 += "<b>" + displayProjectDescription(n) + "</b></div>";
 
-        htmlList2 += "<div class=" + "col-md-3 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
         htmlList2 += "<b>" + displayProjectStartDate(n) + "</b></div>";
 
-        htmlList2 += "<div class=" + "col-md-3 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
         htmlList2 += "<b>" + displayProjectDeadline(n) + "</b></div>";
+
+        /*
+        //TODO: Tilføj det fra over (Metode)
+        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<b>" + displayProjectDeadline(n) + "</b></div>";
+
+         */
 
         htmlList2 += "<table id=Project" + n + ">";
 
