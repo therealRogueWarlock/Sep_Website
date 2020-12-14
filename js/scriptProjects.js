@@ -52,7 +52,7 @@ function xmlToDate(xmlDate) {
 }
 
 
-var htmlList2;
+var htmlList2 = "";
 var counter = 0;
 var counterFinish = 0;
 
