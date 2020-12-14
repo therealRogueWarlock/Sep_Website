@@ -39,7 +39,7 @@ function displayProjectDescription(n) {
 function displayProjectStartDate(n) {
     var x = xmlToDate(projectDataXmlDoc.getElementsByTagName("projectStartDate"));
     console.log(x);
-    return x[n].childNodes[0].nodeValue;
+    //    return x[n].childNodes[0].nodeValue;
 }
 
 function displayProjectDeadline(n) {
@@ -49,7 +49,7 @@ function displayProjectDeadline(n) {
 }
 
 function xmlToDate(n) {
-    return projectDataXmlDoc.getElementsByTagName("day").childNodes[n].nodeValue;
+    //    return projectDataXmlDoc.getElementsByTagName("day").childNodes[n].nodeValue;
 }
 
 
