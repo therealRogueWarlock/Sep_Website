@@ -48,11 +48,11 @@ function displayProjectStartDate(n) {
 
 function displayProjectDeadline(n) {
     var x = projectDataXmlDoc.getElementsByTagName("projectDeadline")[n];
-    return xmlToDate(x);
+    return xmlToDate(x, n);
 }
 
-function xmlToDate(xmlDate) {
-    return xmlDate.getElementsByTagName("day") + xmlDate.getElementsByTagName("month") + xmlDate.getElementsByTagName("year");
+function xmlToDate(xmlDate, n) {
+    return xmlDate.getElementsByTagName("day")[0].innerHTML + "/" + xmlDate.getElementsByTagName("month")[0].innerHTML + "-" + xmlDate.getElementsByTagName("year")[0].innerHTML;
 }
 
 
