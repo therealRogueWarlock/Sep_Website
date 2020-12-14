@@ -43,19 +43,17 @@ function displayProjectDescription(n) {
 }
 
 function displayProjectStartDate(n) {
-    var x = projectDataXmlDoc.getElementsByTagName("projectStartDate");
-    console.log("41: " + x);
-    //    return x[n].childNodes[0].nodeValue;
+    var x = projectDataXmlDoc.getElementsByTagName("projectStartDate")[n];
+    return xmlToDate(x);
 }
 
 function displayProjectDeadline(n) {
-    var x = projectDataXmlDoc.getElementsByTagName("projectDeadline");
-    console.log("47: " + x);
-    //    return x[n].childNodes[0].nodeValue;
+    var x = projectDataXmlDoc.getElementsByTagName("projectDeadline")[n];
+    return xmlToDate(x, n);
 }
 
-function xmlToDate(n) {
-    //    return projectDataXmlDoc.getElementsByTagName("day").childNodes[n].nodeValue;
+function xmlToDate(xmlDate, n) {
+    return xmlDate.getElementsByTagName("day")[0].innerHTML + "/" + xmlDate.getElementsByTagName("month")[0].innerHTML + "-" + xmlDate.getElementsByTagName("year")[0].innerHTML;
 }
 
 
@@ -71,25 +69,27 @@ function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
         //Få en counter af projekter inde i dette projekt!
         htmlList2 += "<div class=row align-items-center m-2 bg-white>";
         //Display Project Names over Tables
-        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
-        htmlList2 += "<b>" + displayProjectName(n) + "</b></div>";
-        //Display Project Descriptions over Tables
-        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<div class=col-md-4 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<h3>" + displayProjectName(n) + "</h3></div>";
+        htmlList2 += "<div class=col-md-4 border border-solid text-center text-md-left p-3>";
         htmlList2 += "<b>" + displayProjectDescription(n) + "</b></div>";
+        //Display Project Information over Tables
+        htmlList2 += "</div><div class=row align-items-center m-2 bg-white>";
 
-        htmlList2 += "<div class=col-md-2 border border-solid text-center text-md-left p-3>";
-        htmlList2 += "<b>" + displayProjectStartDate(n) + "</b></div>";
+        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<b>Start:</b> " + displayProjectStartDate(n) + "</div>";
 
-        htmlList2 += "<div class=col-md-2 border border-solid text-center text-md-left p-3>";
-        htmlList2 += "<b>" + displayProjectDeadline(n) + "</b></div>";
+        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<b>Deadline:</b> " + displayProjectDeadline(n) + "</div>";
 
-        htmlList2 += "<div class=col-md-2 border border-solid text-center text-md-left p-3>";
-        htmlList2 += "<b>" + displayPercentageComplete(n) + "% complete</b></div>";
-
+        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<b>Status:</b> " + displayPercentageComplete(n) + "% complete</div>";
+        //Project Information END
+        htmlList2 += "</div><div class=row align-items-center m-2 bg-white>";
+        //Table Creation
         htmlList2 += "<table id=Project" + n + ">";
 
         var requirements = projectsArray[n].getElementsByTagName("requirements");
-
 
         //Sæt data ind i projekt.
         htmlList2 += "<tr> <td>Requirement</td> <td>Priority</td> <td>Estimated Time</td> <td>Status</td> <td>Description</td> </tr>";
@@ -178,8 +178,7 @@ var requirementList = document.getElementById("RequirementList");
 
 
 // fetching array of projects from ProjectData.xml
-var projectsArray =
-    projectDataXmlDoc.getElementsByTagName("projects");
+var projectsArray = projectDataXmlDoc.getElementsByTagName("projects");
 
 // Generating project tables!
 generateProjectTableTest(projectsArray, requirementList, projectDataXmlDoc);
