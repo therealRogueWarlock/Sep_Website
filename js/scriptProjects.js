@@ -43,12 +43,13 @@ function displayProjectStartDate(n) {
 }
 
 function displayProjectDeadline(n) {
-    var x = xmlToDate(projectDataXmlDoc.getElementsByTagName("projectDeadline"));
+    var x = projectDataXmlDoc.getElementsByTagName("projectDeadline");
+    console.log(x);
     return x[n].childNodes[0].nodeValue;
 }
 
-function xmlToDate(xmlDate) {
-    return xmlDate.getElementsByTagName("day") + "/" + xmlDate.getElementsByTagName("month") + "-" + xmlDate.getElementsByTagName("year");
+function xmlToDate(n) {
+    return projectDataXmlDoc.getElementsByTagName("day").childNodes[n].nodeValue;
 }
 
 
@@ -69,13 +70,13 @@ function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
         //Display Project Descriptions over Tables
         htmlList2 += "<div class=" + "col-md-3 border border-solid text-center text-md-left p-3>";
         htmlList2 += "<b>" + displayProjectDescription(n) + "</b></div>";
-        /*
-                htmlList2 += "<div class=" + "col-md-3 border border-solid text-center text-md-left p-3>";
-                htmlList2 += "<b>" + displayProjectStartDate(n) + "</b></div>";
-        
-                htmlList2 += "<div class=" + "col-md-3 border border-solid text-center text-md-left p-3>";
-                htmlList2 += "<b>" + displayProjectDeadline(n) + "</b></div>";
-        */
+
+        htmlList2 += "<div class=" + "col-md-3 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<b>" + displayProjectStartDate(n) + "</b></div>";
+
+        htmlList2 += "<div class=" + "col-md-3 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<b>" + displayProjectDeadline(n) + "</b></div>";
+
         htmlList2 += "<table id=Project" + n + ">";
 
         var requirements = projectsArray[n].getElementsByTagName("requirements");
@@ -85,7 +86,7 @@ function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
         htmlList2 += "<tr> <td>Requirement</td> <td>Priority</td> <td>Estimated Time</td> <td>Status</td> <td>Description</td> </tr>";
         for (var j = counterFinish; j < (requirements.length + counterFinish); j++) {
             // console.log("Display requirement iteration: " + j);
-            htmlList2 += "<tr><td>" + displayRequirementName(j, projectDataXmlDoc) + "</td><td>" + displayPriority(j, projectDataXmlDoc) + "</td><td>" + displayRequirementTimeEstimate(j, projectDataXmlDoc) + "</td><td>" + displayStatus(j, projectDataXmlDoc) + "</td><td>" + displayRequirementDescription(j, projectDataXmlDoc) + "</td></tr>"
+            htmlList2 += "<tr><td>" + displayRequirementName(j) + "</td><td>" + displayPriority(j) + "</td><td>" + displayRequirementTimeEstimate(j) + "</td><td>" + displayStatus(j) + "</td><td>" + displayRequirementDescription(j) + "</td></tr>"
             counter++;
         }
 
