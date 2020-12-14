@@ -1,4 +1,5 @@
 var document, XMLHttpRequest;
+import {projectDataXmlDoc} from "./scriptIndex";
 
 //Generating the functions for getting and returning projects data
 function displayRequirementName(n) {
@@ -68,35 +69,38 @@ function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
         //Få en counter af projekter inde i dette projekt!
         htmlList2 += "<div class=row align-items-center m-2 bg-white>";
         //Display Project Names over Tables
-        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
-        htmlList2 += "<b>" + displayProjectName(n) + "</b></div>";
-        //Display Project Descriptions over Tables
-        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<div class='col-md-4 border border-solid text-center text-md-left p-3'>";
+        htmlList2 += "<h3>" + displayProjectName(n) + "</h3></div>";
+        htmlList2 += "<div class='col-md-4 border border-solid text-center text-md-left p-3'>";
         htmlList2 += "<b>" + displayProjectDescription(n) + "</b></div>";
+        //Display Project Information over Tables
+        htmlList2 += "</div><div class='row align-items-center m-2'>";
 
-        htmlList2 += "<div class=col-md-2 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<div class='bg-light col-md col-lg-3 col-xl-2 border border-solid text-center text-md-left p-3'>";
         htmlList2 += "<b>Start:</b> " + displayProjectStartDate(n) + "</div>";
 
-        htmlList2 += "<div class=col-md-2 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<div class='bg-light col-md col-lg-3 col-xl-3 border border-solid text-center text-md-left p-3'>";
         htmlList2 += "<b>Deadline:</b> " + displayProjectDeadline(n) + "</div>";
 
-        htmlList2 += "<div class=col-md-2 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<div class='bg-light col-md col-lg-3 col-xl-3 border border-solid text-center text-md-left p-3'>";
         htmlList2 += "<b>Status:</b> " + displayPercentageComplete(n) + "% complete</div>";
-
-        htmlList2 += "<table id=Project" + n + ">";
+        //Project Information END
+        //htmlList2 += "</div><div class='row align-items-center m-2'>";
+        //Table Creation
+        htmlList2 += "<div class='col-xl-4'><table id=Project class='bg-light'" + n + ">";
 
         var requirements = projectsArray[n].getElementsByTagName("requirements");
-
 
         //Sæt data ind i projekt.
         htmlList2 += "<tr> <td>Requirement</td> <td>Priority</td> <td>Estimated Time</td> <td>Status</td> <td>Description</td> </tr>";
         for (var j = counterFinish; j < (requirements.length + counterFinish); j++) {
             // console.log("Display requirement iteration: " + j);
-            htmlList2 += "<tr><td>" + displayRequirementName(j) + "</td><td>" + displayPriority(j) + "</td><td>" + displayRequirementTimeEstimate(j) + "</td><td>" + displayStatus(j) + "</td><td>" + displayRequirementDescription(j) + "</td></tr>"
+            htmlList2 += "<tr><td>" + displayRequirementName(j) + "</td><td>" + displayPriority(j) + "</td><td>"
+                + displayRequirementTimeEstimate(j) + "</td><td>" + displayStatus(j) + "</td><td>" + displayRequirementDescription(j) + "</td></tr>"
             counter++;
         }
 
-        htmlList2 += "</table></div>";
+        htmlList2 += "</table></div></div>";
         //Used for counting through the total list!
         counterFinish = counter;
 
@@ -107,12 +111,6 @@ function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
 
 // table objects
 var requirementList = document.getElementById("RequirementList");
-
-// Requesting data from ProjectData.xml
-var xhttp = new XMLHttpRequest();
-xhttp.open("GET", "ProjectData.xml", false);
-xhttp.send();
-var projectDataXmlDoc = xhttp.responseXML;
 
 
 // fetching array of projects from ProjectData.xml
