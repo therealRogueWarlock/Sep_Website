@@ -89,8 +89,8 @@ function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
         htmlList2 += "<div class='bg-light col-md col-lg-3 col-xl-3 border border-solid text-center text-md-left p-3'>"; //<COL>
         htmlList2 += "<b>Status:</b> " + displayPercentageComplete(n) + "% complete</div>"; //</COL>
         //Project Information END
-        htmlList2 += "<div class='col-lg-12 col-xl'>"; //<COL>
         //Table Creation
+        htmlList2 += "<div class='col-lg-12 col-xl'>"; //<COL>
         htmlList2 += "<table id=Project class='bg-light'" + n + ">"; //<TABLE>
 
         var requirements = projectsArray[n].getElementsByTagName("requirements");
