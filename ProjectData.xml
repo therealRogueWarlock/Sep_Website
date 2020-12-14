@@ -4,7 +4,7 @@
     <projectDeadline>
       <month>12</month>
       <year>2020</year>
-      <day>16</day>
+      <day>21</day>
     </projectDeadline>
     <projectCreationDate>
       <month>12</month>
@@ -21,59 +21,38 @@
       <year>2020</year>
       <day>14</day>
     </projectEndDate>
-    <projectDescription>Project 1 description</projectDescription>
+    <projectDescription>Øvelse af RWD for eksamen</projectDescription>
     <teamMemberList>
       <teamMembers>
         <birthday>
           <month>12</month>
           <year>2020</year>
-          <day>7</day>
+          <day>8</day>
         </birthday>
-        <role>Team Member</role>
-        <memberName>sander</memberName>
-        <employeeNumber>785985</employeeNumber>
-      </teamMembers>
-      <teamMembers>
-        <birthday>
-          <month>12</month>
-          <year>2020</year>
-          <day>7</day>
-        </birthday>
-        <role>Team Member</role>
-        <memberName>john</memberName>
-        <employeeNumber>682137</employeeNumber>
-      </teamMembers>
-      <teamMembers>
-        <birthday>
-          <month>12</month>
-          <year>2020</year>
-          <day>7</day>
-        </birthday>
-        <role>Team Member</role>
-        <memberName>bob</memberName>
-        <employeeNumber>439690</employeeNumber>
+        <memberName>Børge</memberName>
+        <employeeNumber>746109</employeeNumber>
       </teamMembers>
     </teamMemberList>
-    <projectName>Project1</projectName>
+    <projectName>RWD</projectName>
     <requirementList>
       <requirements>
-        <requirementName>requirement0</requirementName>
+        <requirementName>RWD1</requirementName>
         <requirementCreationDate>
           <month>12</month>
           <year>2020</year>
           <day>14</day>
         </requirementCreationDate>
-        <requirementTimeEstimate>12</requirementTimeEstimate>
+        <requirementTimeEstimate>13</requirementTimeEstimate>
         <taskList>
           <tasks>
             <finito>true</finito>
-            <taskTimeEstimate>12</taskTimeEstimate>
-            <highPriority>true</highPriority>
+            <taskTimeEstimate>13</taskTimeEstimate>
+            <highPriority>false</highPriority>
             <totalTimeSpent>0</totalTimeSpent>
             <taskDescription/>
-            <taskName>asdf</taskName>
-            <id>485284</id>
-            <taskResponsible>sander</taskResponsible>
+            <taskName>SDASD</taskName>
+            <id>647214</id>
+            <taskResponsible>Børge</taskResponsible>
             <taskCreationDate>
               <month>12</month>
               <year>2020</year>
@@ -82,22 +61,96 @@
           </tasks>
         </taskList>
         <checked>true</checked>
-        <requirementDescription>Requirement0 description</requirementDescription>
+        <requirementDescription>Øve RWD1</requirementDescription>
         <priority>1</priority>
         <status>Approved</status>
       </requirements>
       <requirements>
-        <requirementName>Requirement1</requirementName>
+        <requirementName>RWD2</requirementName>
         <requirementCreationDate>
           <month>12</month>
           <year>2020</year>
           <day>14</day>
         </requirementCreationDate>
-        <requirementTimeEstimate>3</requirementTimeEstimate>
+        <requirementTimeEstimate>13</requirementTimeEstimate>
+        <taskList>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>13</taskTimeEstimate>
+            <highPriority>true</highPriority>
+            <totalTimeSpent>0</totalTimeSpent>
+            <taskDescription/>
+            <taskName>adfsaf</taskName>
+            <id>623453</id>
+            <taskResponsible>Børge</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>14</day>
+            </taskCreationDate>
+          </tasks>
+        </taskList>
+        <checked>true</checked>
+        <requirementDescription>Øve RWD2</requirementDescription>
+        <priority>2</priority>
+        <status>Rejected</status>
+      </requirements>
+      <requirements>
+        <requirementName>RWD3</requirementName>
+        <requirementCreationDate>
+          <month>12</month>
+          <year>2020</year>
+          <day>14</day>
+        </requirementCreationDate>
+        <requirementTimeEstimate>13</requirementTimeEstimate>
+        <taskList>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>13</taskTimeEstimate>
+            <highPriority>true</highPriority>
+            <totalTimeSpent>0</totalTimeSpent>
+            <taskDescription>DQWdqwdQDWQWD</taskDescription>
+            <taskName>ASFasfqwfwqwf</taskName>
+            <id>2833</id>
+            <taskResponsible>Børge</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>14</day>
+            </taskCreationDate>
+          </tasks>
+        </taskList>
+        <checked>true</checked>
+        <requirementDescription>Øve RWD3</requirementDescription>
+        <priority>3</priority>
+        <status>Ready for Review</status>
+      </requirements>
+      <requirements>
+        <requirementName>RWD4</requirementName>
+        <requirementCreationDate>
+          <month>12</month>
+          <year>2020</year>
+          <day>14</day>
+        </requirementCreationDate>
+        <requirementTimeEstimate>43</requirementTimeEstimate>
         <taskList/>
         <checked>false</checked>
-        <requirementDescription>Requirement1 description</requirementDescription>
-        <priority>2</priority>
+        <requirementDescription>Øve RWD4</requirementDescription>
+        <priority>4</priority>
+        <status>Not Done</status>
+      </requirements>
+      <requirements>
+        <requirementName>RWD5</requirementName>
+        <requirementCreationDate>
+          <month>12</month>
+          <year>2020</year>
+          <day>14</day>
+        </requirementCreationDate>
+        <requirementTimeEstimate>135</requirementTimeEstimate>
+        <taskList/>
+        <checked>false</checked>
+        <requirementDescription>Øve RWD5</requirementDescription>
+        <priority>5</priority>
         <status>Not Done</status>
       </requirements>
     </requirementList>
@@ -106,7 +159,7 @@
     <projectDeadline>
       <month>12</month>
       <year>2020</year>
-      <day>17</day>
+      <day>21</day>
     </projectDeadline>
     <projectCreationDate>
       <month>12</month>
@@ -123,69 +176,38 @@
       <year>2020</year>
       <day>14</day>
     </projectEndDate>
-    <projectDescription>Project0 description </projectDescription>
+    <projectDescription>Øvelse af SDJ for eksamen</projectDescription>
     <teamMemberList>
       <teamMembers>
         <birthday>
           <month>12</month>
           <year>2020</year>
-          <day>7</day>
+          <day>8</day>
         </birthday>
-        <role>Team Member</role>
-        <memberName>sander</memberName>
-        <employeeNumber>785985</employeeNumber>
-      </teamMembers>
-      <teamMembers>
-        <birthday>
-          <month>12</month>
-          <year>2020</year>
-          <day>7</day>
-        </birthday>
-        <role>Team Member</role>
-        <memberName>john</memberName>
-        <employeeNumber>682137</employeeNumber>
-      </teamMembers>
-      <teamMembers>
-        <birthday>
-          <month>12</month>
-          <year>2020</year>
-          <day>7</day>
-        </birthday>
-        <role>Team Member</role>
-        <memberName>bob</memberName>
-        <employeeNumber>439690</employeeNumber>
-      </teamMembers>
-      <teamMembers>
-        <birthday>
-          <month>12</month>
-          <year>2020</year>
-          <day>7</day>
-        </birthday>
-        <role>Team Member</role>
-        <memberName>Andreas</memberName>
-        <employeeNumber>861317</employeeNumber>
+        <memberName>Børge</memberName>
+        <employeeNumber>746109</employeeNumber>
       </teamMembers>
     </teamMemberList>
-    <projectName>Project0</projectName>
+    <projectName>SDJ</projectName>
     <requirementList>
       <requirements>
-        <requirementName>Requirement0</requirementName>
+        <requirementName>SDJ1</requirementName>
         <requirementCreationDate>
           <month>12</month>
           <year>2020</year>
           <day>14</day>
         </requirementCreationDate>
-        <requirementTimeEstimate>3241</requirementTimeEstimate>
+        <requirementTimeEstimate>13</requirementTimeEstimate>
         <taskList>
           <tasks>
             <finito>true</finito>
-            <taskTimeEstimate>3241</taskTimeEstimate>
+            <taskTimeEstimate>13</taskTimeEstimate>
             <highPriority>false</highPriority>
             <totalTimeSpent>0</totalTimeSpent>
             <taskDescription/>
-            <taskName>afsd</taskName>
-            <id>786532</id>
-            <taskResponsible>sander</taskResponsible>
+            <taskName>QWDQWD</taskName>
+            <id>536537</id>
+            <taskResponsible>Børge</taskResponsible>
             <taskCreationDate>
               <month>12</month>
               <year>2020</year>
@@ -194,177 +216,185 @@
           </tasks>
         </taskList>
         <checked>true</checked>
-        <requirementDescription>Requirement0 description</requirementDescription>
+        <requirementDescription>Øve SDJ1</requirementDescription>
         <priority>1</priority>
         <status>Approved</status>
       </requirements>
       <requirements>
-        <requirementName>Requirement1</requirementName>
+        <requirementName>SDJ2</requirementName>
         <requirementCreationDate>
           <month>12</month>
           <year>2020</year>
           <day>14</day>
         </requirementCreationDate>
-        <requirementTimeEstimate>2</requirementTimeEstimate>
+        <requirementTimeEstimate>13</requirementTimeEstimate>
+        <taskList>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>13</taskTimeEstimate>
+            <highPriority>false</highPriority>
+            <totalTimeSpent>0</totalTimeSpent>
+            <taskDescription>QWDQWDQWD</taskDescription>
+            <taskName>QWDQWD</taskName>
+            <id>225594</id>
+            <taskResponsible>Børge</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>14</day>
+            </taskCreationDate>
+          </tasks>
+        </taskList>
+        <checked>true</checked>
+        <requirementDescription>Øve SDJ2</requirementDescription>
+        <priority>2</priority>
+        <status>Approved</status>
+      </requirements>
+      <requirements>
+        <requirementName>SDJ3</requirementName>
+        <requirementCreationDate>
+          <month>12</month>
+          <year>2020</year>
+          <day>14</day>
+        </requirementCreationDate>
+        <requirementTimeEstimate>1356</requirementTimeEstimate>
+        <taskList>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>13</taskTimeEstimate>
+            <highPriority>false</highPriority>
+            <totalTimeSpent>0</totalTimeSpent>
+            <taskDescription>QWDQWDQWDQWD</taskDescription>
+            <taskName>qwdqwdqwdqwd</taskName>
+            <id>633257</id>
+            <taskResponsible>Børge</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>14</day>
+            </taskCreationDate>
+          </tasks>
+        </taskList>
+        <checked>true</checked>
+        <requirementDescription>Øve SDJ3</requirementDescription>
+        <priority>3</priority>
+        <status>Approved</status>
+      </requirements>
+    </requirementList>
+  </projects>
+  <projects>
+    <projectDeadline>
+      <month>12</month>
+      <year>2020</year>
+      <day>21</day>
+    </projectDeadline>
+    <projectCreationDate>
+      <month>12</month>
+      <year>2020</year>
+      <day>14</day>
+    </projectCreationDate>
+    <projectStartDate>
+      <month>12</month>
+      <year>2020</year>
+      <day>14</day>
+    </projectStartDate>
+    <projectEndDate>
+      <month>12</month>
+      <year>2020</year>
+      <day>14</day>
+    </projectEndDate>
+    <projectDescription>Øvelse af SSE for eksamen</projectDescription>
+    <teamMemberList>
+      <teamMembers>
+        <birthday>
+          <month>12</month>
+          <year>2020</year>
+          <day>8</day>
+        </birthday>
+        <memberName>Børge</memberName>
+        <employeeNumber>746109</employeeNumber>
+      </teamMembers>
+    </teamMemberList>
+    <projectName>SSE</projectName>
+    <requirementList/>
+  </projects>
+  <projects>
+    <projectDeadline>
+      <month>12</month>
+      <year>2020</year>
+      <day>21</day>
+    </projectDeadline>
+    <projectCreationDate>
+      <month>12</month>
+      <year>2020</year>
+      <day>14</day>
+    </projectCreationDate>
+    <projectStartDate>
+      <month>12</month>
+      <year>2020</year>
+      <day>14</day>
+    </projectStartDate>
+    <projectEndDate>
+      <month>12</month>
+      <year>2020</year>
+      <day>14</day>
+    </projectEndDate>
+    <projectDescription>Øvelse af MSE for eksamen</projectDescription>
+    <teamMemberList>
+      <teamMembers>
+        <birthday>
+          <month>12</month>
+          <year>2020</year>
+          <day>8</day>
+        </birthday>
+        <memberName>Børge</memberName>
+        <employeeNumber>746109</employeeNumber>
+      </teamMembers>
+    </teamMemberList>
+    <projectName>MSE</projectName>
+    <requirementList>
+      <requirements>
+        <requirementName>MSE1</requirementName>
+        <requirementCreationDate>
+          <month>12</month>
+          <year>2020</year>
+          <day>14</day>
+        </requirementCreationDate>
+        <requirementTimeEstimate>53</requirementTimeEstimate>
         <taskList/>
         <checked>false</checked>
-        <requirementDescription>Requirement1Description</requirementDescription>
+        <requirementDescription>Øve MSE1</requirementDescription>
+        <priority>1</priority>
+        <status>Not Done</status>
+      </requirements>
+      <requirements>
+        <requirementName>MSE2</requirementName>
+        <requirementCreationDate>
+          <month>12</month>
+          <year>2020</year>
+          <day>14</day>
+        </requirementCreationDate>
+        <requirementTimeEstimate>135</requirementTimeEstimate>
+        <taskList/>
+        <checked>false</checked>
+        <requirementDescription>Øve MSE2</requirementDescription>
         <priority>2</priority>
         <status>Not Done</status>
       </requirements>
       <requirements>
-        <requirementName>Requirement2</requirementName>
+        <requirementName>MSE3</requirementName>
         <requirementCreationDate>
           <month>12</month>
           <year>2020</year>
           <day>14</day>
         </requirementCreationDate>
-        <requirementTimeEstimate>3</requirementTimeEstimate>
+        <requirementTimeEstimate>76</requirementTimeEstimate>
         <taskList/>
         <checked>false</checked>
-        <requirementDescription>Requirement2 description</requirementDescription>
+        <requirementDescription>Øve MSE3</requirementDescription>
         <priority>3</priority>
         <status>Not Done</status>
       </requirements>
     </requirementList>
-  </projects>
-  <projects>
-    <projectDeadline>
-      <month>12</month>
-      <year>2020</year>
-      <day>20</day>
-    </projectDeadline>
-    <projectCreationDate>
-      <month>12</month>
-      <year>2020</year>
-      <day>14</day>
-    </projectCreationDate>
-    <projectStartDate>
-      <month>12</month>
-      <year>2020</year>
-      <day>15</day>
-    </projectStartDate>
-    <projectEndDate>
-      <month>12</month>
-      <year>2020</year>
-      <day>14</day>
-    </projectEndDate>
-    <projectDescription>Project2 description </projectDescription>
-    <teamMemberList>
-      <teamMembers>
-        <birthday>
-          <month>12</month>
-          <year>2020</year>
-          <day>7</day>
-        </birthday>
-        <memberName>bob</memberName>
-        <employeeNumber>439690</employeeNumber>
-      </teamMembers>
-      <teamMembers>
-        <birthday>
-          <month>12</month>
-          <year>2020</year>
-          <day>7</day>
-        </birthday>
-        <memberName>sander</memberName>
-        <employeeNumber>785985</employeeNumber>
-      </teamMembers>
-    </teamMemberList>
-    <projectName>Project2</projectName>
-    <requirementList>
-      <requirements>
-        <requirementName>requirement0</requirementName>
-        <requirementCreationDate>
-          <month>12</month>
-          <year>2020</year>
-          <day>14</day>
-        </requirementCreationDate>
-        <requirementTimeEstimate>12</requirementTimeEstimate>
-        <taskList>
-          <tasks>
-            <finito>true</finito>
-            <taskTimeEstimate>12</taskTimeEstimate>
-            <highPriority>false</highPriority>
-            <totalTimeSpent>0</totalTimeSpent>
-            <taskDescription/>
-            <taskName>asdf</taskName>
-            <id>975633</id>
-            <taskResponsible>sander</taskResponsible>
-            <taskCreationDate>
-              <month>12</month>
-              <year>2020</year>
-              <day>14</day>
-            </taskCreationDate>
-          </tasks>
-        </taskList>
-        <checked>true</checked>
-        <requirementDescription>Requirement0 description</requirementDescription>
-        <priority>1</priority>
-        <status>Approved</status>
-      </requirements>
-    </requirementList>
-  </projects>
-  <projects>
-    <projectDeadline>
-      <month>12</month>
-      <year>2020</year>
-      <day>17</day>
-    </projectDeadline>
-    <projectCreationDate>
-      <month>12</month>
-      <year>2020</year>
-      <day>14</day>
-    </projectCreationDate>
-    <projectStartDate>
-      <month>12</month>
-      <year>2020</year>
-      <day>16</day>
-    </projectStartDate>
-    <projectEndDate>
-      <month>12</month>
-      <year>2020</year>
-      <day>14</day>
-    </projectEndDate>
-    <projectDescription>Project3 description </projectDescription>
-    <teamMemberList>
-      <teamMembers>
-        <birthday>
-          <month>12</month>
-          <year>2020</year>
-          <day>7</day>
-        </birthday>
-        <memberName>bob</memberName>
-        <employeeNumber>439690</employeeNumber>
-      </teamMembers>
-      <teamMembers>
-        <birthday>
-          <month>12</month>
-          <year>2020</year>
-          <day>7</day>
-        </birthday>
-        <memberName>sander</memberName>
-        <employeeNumber>785985</employeeNumber>
-      </teamMembers>
-      <teamMembers>
-        <birthday>
-          <month>12</month>
-          <year>2020</year>
-          <day>7</day>
-        </birthday>
-        <memberName>marker</memberName>
-        <employeeNumber>802064</employeeNumber>
-      </teamMembers>
-      <teamMembers>
-        <birthday>
-          <month>12</month>
-          <year>2020</year>
-          <day>7</day>
-        </birthday>
-        <memberName>sonny</memberName>
-        <employeeNumber>261753</employeeNumber>
-      </teamMembers>
-    </teamMemberList>
-    <projectName>Project3</projectName>
-    <requirementList/>
   </projects>
 </ProjectList>
