@@ -68,25 +68,27 @@ function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
         //Få en counter af projekter inde i dette projekt!
         htmlList2 += "<div class=row align-items-center m-2 bg-white>";
         //Display Project Names over Tables
-        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
-        htmlList2 += "<b>" + displayProjectName(n) + "</b></div>";
-        //Display Project Descriptions over Tables
-        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<div class=col-md-4 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<h3>" + displayProjectName(n) + "</h3></div>";
+        htmlList2 += "<div class=col-md-4 border border-solid text-center text-md-left p-3>";
         htmlList2 += "<b>" + displayProjectDescription(n) + "</b></div>";
+        //Display Project Information over Tables
+        htmlList2 += "</div><div class=row align-items-center m-2 bg-white>";
 
-        htmlList2 += "<div class=col-md-2 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
         htmlList2 += "<b>Start:</b> " + displayProjectStartDate(n) + "</div>";
 
-        htmlList2 += "<div class=col-md-2 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
         htmlList2 += "<b>Deadline:</b> " + displayProjectDeadline(n) + "</div>";
 
-        htmlList2 += "<div class=col-md-2 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
         htmlList2 += "<b>Status:</b> " + displayPercentageComplete(n) + "% complete</div>";
-
+        //Project Information END
+        htmlList2 += "</div><div class=row align-items-center m-2 bg-white>";
+        //Table Creation
         htmlList2 += "<table id=Project" + n + ">";
 
         var requirements = projectsArray[n].getElementsByTagName("requirements");
-
 
         //Sæt data ind i projekt.
         htmlList2 += "<tr> <td>Requirement</td> <td>Priority</td> <td>Estimated Time</td> <td>Status</td> <td>Description</td> </tr>";
