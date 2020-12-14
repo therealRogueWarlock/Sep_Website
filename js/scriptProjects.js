@@ -16,13 +16,10 @@ function displayRequirementTimeEstimate(n) {
     return x[n].childNodes[0].nodeValue;
 }
 
-/*
-//TODO: Project Status - SBT
-function displayRequirementTimeEstimate(n) {
-    var x = projectDataXmlDoc.getElementsByTagName("requirementTimeEstimate");
+function displayPercentageComplete(n) {
+    var x = projectDataXmlDoc.getElementsByTagName("percentageComplete");
     return x[n].childNodes[0].nodeValue;
 }
- */
 
 function displayStatus(n) {
     var x = projectDataXmlDoc.getElementsByTagName("status");
@@ -79,18 +76,14 @@ function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
         htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
         htmlList2 += "<b>" + displayProjectDescription(n) + "</b></div>";
 
-        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<div class=col-md-2 border border-solid text-center text-md-left p-3>";
         htmlList2 += "<b>" + displayProjectStartDate(n) + "</b></div>";
 
-        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<div class=col-md-2 border border-solid text-center text-md-left p-3>";
         htmlList2 += "<b>" + displayProjectDeadline(n) + "</b></div>";
 
-        /*
-        //TODO: Tilføj det fra over (Metode)
-        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
-        htmlList2 += "<b>" + displayProjectDeadline(n) + "</b></div>";
-
-         */
+        htmlList2 += "<div class=col-md-2 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<b>" + displayPercentageComplete(n) + "% complete</b></div>";
 
         htmlList2 += "<table id=Project" + n + ">";
 
