@@ -37,19 +37,17 @@ function displayProjectDescription(n) {
 }
 
 function displayProjectStartDate(n) {
-    var x = projectDataXmlDoc.getElementsByTagName("projectStartDate");
-    console.log("41: " + x);
-    //    return x[n].childNodes[0].nodeValue;
+    var x = projectDataXmlDoc.getElementsByTagName("projectStartDate")[n];
+    return xmlToDate(x);
 }
 
 function displayProjectDeadline(n) {
-    var x = projectDataXmlDoc.getElementsByTagName("projectDeadline");
-    console.log("47: " + x);
-    //    return x[n].childNodes[0].nodeValue;
+    var x = projectDataXmlDoc.getElementsByTagName("projectDeadline")[n];
+    return xmlToDate(x);
 }
 
-function xmlToDate(n) {
-    //    return projectDataXmlDoc.getElementsByTagName("day").childNodes[n].nodeValue;
+function xmlToDate(xmlDate) {
+    return xmlDate.getElementsByTagName("day") + xmlDate.getElementsByTagName("month") + xmlDate.getElementsByTagName("year");
 }
 
 
@@ -174,8 +172,7 @@ var projectDataXmlDoc = xhttp.responseXML;
 
 
 // fetching array of projects from ProjectData.xml
-var projectsArray =
-    projectDataXmlDoc.getElementsByTagName("projects");
+var projectsArray = projectDataXmlDoc.getElementsByTagName("projects");
 
 // Generating project tables!
 generateProjectTableTest(projectsArray, requirementList, projectDataXmlDoc);

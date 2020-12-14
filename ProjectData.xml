@@ -6,6 +6,7 @@
       <year>2020</year>
       <day>21</day>
     </projectDeadline>
+	<percentageComplete>20</percentageComplete>
     <projectCreationDate>
       <month>12</month>
       <year>2020</year>
@@ -159,12 +160,13 @@
     <projectDeadline>
       <month>12</month>
       <year>2020</year>
-      <day>21</day>
+      <day>22</day>
     </projectDeadline>
+	<percentageComplete>100</percentageComplete>
     <projectCreationDate>
       <month>12</month>
       <year>2020</year>
-      <day>14</day>
+      <day>15</day>
     </projectCreationDate>
     <projectStartDate>
       <month>12</month>
@@ -286,12 +288,13 @@
     <projectDeadline>
       <month>12</month>
       <year>2020</year>
-      <day>21</day>
+      <day>23</day>
     </projectDeadline>
+	<percentageComplete>0</percentageComplete>
     <projectCreationDate>
       <month>12</month>
       <year>2020</year>
-      <day>14</day>
+      <day>16</day>
     </projectCreationDate>
     <projectStartDate>
       <month>12</month>
@@ -322,12 +325,13 @@
     <projectDeadline>
       <month>12</month>
       <year>2020</year>
-      <day>21</day>
+      <day>24</day>
     </projectDeadline>
+	<percentageComplete>0</percentageComplete>
     <projectCreationDate>
       <month>12</month>
       <year>2020</year>
-      <day>14</day>
+      <day>17</day>
     </projectCreationDate>
     <projectStartDate>
       <month>12</month>
