@@ -75,13 +75,13 @@ function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
         htmlList2 += "<b>" + displayProjectDescription(n) + "</b></div>";
 
         htmlList2 += "<div class=col-md-2 border border-solid text-center text-md-left p-3>";
-        htmlList2 += "<b>" + displayProjectStartDate(n) + "</b></div>";
+        htmlList2 += "<b>Start:</b> " + displayProjectStartDate(n) + "</div>";
 
         htmlList2 += "<div class=col-md-2 border border-solid text-center text-md-left p-3>";
-        htmlList2 += "<b>" + displayProjectDeadline(n) + "</b></div>";
+        htmlList2 += "<b>Deadline:</b> " + displayProjectDeadline(n) + "</div>";
 
         htmlList2 += "<div class=col-md-2 border border-solid text-center text-md-left p-3>";
-        htmlList2 += "<b>" + displayPercentageComplete(n) + "% complete</b></div>";
+        htmlList2 += "<b>Status:</b> " + displayPercentageComplete(n) + "% complete</div>";
 
         htmlList2 += "<table id=Project" + n + ">";
 
