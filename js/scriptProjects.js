@@ -1,5 +1,5 @@
 var document, XMLHttpRequest;
-import {projectDataXmlDoc} from "./scriptIndex";
+import { projectDataXmlDoc } from "./scriptIndex";
 
 //Generating the functions for getting and returning projects data
 function displayRequirementName(n) {
