@@ -73,25 +73,25 @@ function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
         //Få en counter af projekter inde i dette projekt!
         htmlList2 += "<div class=row align-items-center m-2 bg-white>";
         //Display Project Names over Tables
-        htmlList2 += "<div class=col-md-4 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<div class='col-md-4 border border-solid text-center text-md-left p-3'>";
         htmlList2 += "<h3>" + displayProjectName(n) + "</h3></div>";
-        htmlList2 += "<div class=col-md-4 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<div class='col-md-4 border border-solid text-center text-md-left p-3'>";
         htmlList2 += "<b>" + displayProjectDescription(n) + "</b></div>";
         //Display Project Information over Tables
-        htmlList2 += "</div><div class=row align-items-center m-2 bg-white>";
+        htmlList2 += "</div><div class='row align-items-center m-2'>";
 
-        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<div class='bg-light col-md col-lg-3 col-xl-2 border border-solid text-center text-md-left p-3'>";
         htmlList2 += "<b>Start:</b> " + displayProjectStartDate(n) + "</div>";
 
-        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<div class='bg-light col-md col-lg-3 col-xl-3 border border-solid text-center text-md-left p-3'>";
         htmlList2 += "<b>Deadline:</b> " + displayProjectDeadline(n) + "</div>";
 
-        htmlList2 += "<div class=col-md-3 border border-solid text-center text-md-left p-3>";
+        htmlList2 += "<div class='bg-light col-md col-lg-3 col-xl-3 border border-solid text-center text-md-left p-3'>";
         htmlList2 += "<b>Status:</b> " + displayPercentageComplete(n) + "% complete</div>";
         //Project Information END
-        htmlList2 += "</div><div class=row align-items-center m-2 bg-white>";
+        //htmlList2 += "</div><div class='row align-items-center m-2'>";
         //Table Creation
-        htmlList2 += "<table id=Project" + n + ">";
+        htmlList2 += "<div class='col-xl-4'><table id=Project class='bg-light'" + n + ">";
 
         var requirements = projectsArray[n].getElementsByTagName("requirements");
 
@@ -104,7 +104,7 @@ function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
             counter++;
         }
 
-        htmlList2 += "</table></div>";
+        htmlList2 += "</table></div></div>";
         //Used for counting through the total list!
         counterFinish = counter;
 
@@ -112,70 +112,6 @@ function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
     }
     target.innerHTML = htmlList2;
 }
-
-
-
-
-
-
-
-//Function for generating the list
-/*
-function generateProjectTable(projectsArray, target, projectDataXmlDoc) {
-    var htmlList2 = "<tr><td><b>Requirement name</b></td><td><b>Priority</b></td><td><b>Time estimate</b></td><td><b>Status</b></td><td><b>Description</b></td></tr>";
-
-    for (var n = 0; n < projectsArray.length; n++) {
-        htmlList2 += "<tr><td>" + displayRequirementName(n) + "</td><td>" + displayPriority(n) + "</td><td>" + displayRequirementTimeEstimate(n) + "</td><td>" + displayStatus(n) + "</td><td>" + displayRequirementDescription(n) + "</td></tr>"
-    }
-    target.innerHTML = htmlList2;
-}
-*/
-
-/*
-function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
-    var htmlList2;   
-
-    
-    for (var j = 0; j <projectsArray.length; n++)
-        {
-            //Få en counter af projekter inde i dette projekt!
-            htmlList2 += "<table id=Project" + n + ">";
-            
-    for (var n = 0; n < projectsArray.length; n++) {
-        htmlList2 += "<tr><td><b>Requirement name</b></td><td><b>Priority</b></td><td><b>Time estimate</b></td><td><b>Status</b></td><td><b>Description</b></td></tr>"; 
-        
-        htmlList2 += "<tr><td>" + displayRequirementName(n) + "</td><td>" + displayPriority(n) + "</td><td>" + displayRequirementTimeEstimate(n) + "</td><td>" + displayStatus(n)  + "</td><td>" + displayRequirementDescription(n) + "</td></tr>";
-    }
-            htmlList2 += "</table>"
-            
-         }
-    target.innerHTML = htmlList2;
-}
-*/
-/*
-function getAmountOfRequirementsInsideProjects(giveMeArray, target, projectDataXmlDoc) {
-
-    var htmlList2 = "<tr><td><b>Requirement name</b></td><td><b>Priority</b></td><td><b>Time estimate</b></td><td><b>Status</b></td><td><b>Description</b></td></tr>";
-
-    for (var n = 0; n < giveMeArray.length; n++) {
-        var requirements = giveMeArray[n].getElementsByTagName("requirements");
-        console.log(requirements.length);
-
-
-
-        for (var j = 0; j < requirements.length; j++) {
-            htmlList2 += "<tr><td>" + displayRequirementName(j, projectDataXmlDoc) + "</td><td>" + displayPriority(j, projectDataXmlDoc) + "</td><td>" + displayRequirementTimeEstimate(j, projectDataXmlDoc) + "</td><td>" + displayStatus(j, projectDataXmlDoc) + "</td><td>" + displayRequirementDescription(j, projectDataXmlDoc) + "</td></tr>"
-            //Kalder på 1,2,3,1,2,1,2,3 (Men skal kalde på 1,2,3 og så 1,2 og så 1,2)
-        }
-
-    }
-    target.innerHTML = htmlList2;
-    //Nu får vi antal requirements under hvert projekt, vi skal lave et tabel, der bruger DISSE requirements!!
-
-
-}
-*/
-
 
 // table objects
 var requirementList = document.getElementById("RequirementList");
