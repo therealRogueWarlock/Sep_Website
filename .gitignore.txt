@@ -4,6 +4,7 @@
 /dist
 /tmp
 /out-tsc
+/ProjectData.xml
 
 # Runtime data
 pids
@@ -91,3 +92,4 @@ lerna-debug.log
 Thumbs.db
 
 /ProjectData.xml
+
