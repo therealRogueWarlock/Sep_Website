@@ -4,165 +4,9 @@
     <projectDeadline>
       <month>12</month>
       <year>2020</year>
-      <day>21</day>
+      <day>24</day>
     </projectDeadline>
-	<percentageComplete>20</percentageComplete>
-    <projectCreationDate>
-      <month>12</month>
-      <year>2020</year>
-      <day>14</day>
-    </projectCreationDate>
-    <projectStartDate>
-      <month>12</month>
-      <year>2020</year>
-      <day>14</day>
-    </projectStartDate>
-    <projectEndDate>
-      <month>12</month>
-      <year>2020</year>
-      <day>14</day>
-    </projectEndDate>
-    <projectDescription>Øvelse af RWD for eksamen</projectDescription>
-    <teamMemberList>
-      <teamMembers>
-        <birthday>
-          <month>12</month>
-          <year>2020</year>
-          <day>8</day>
-        </birthday>
-        <memberName>Børge</memberName>
-        <employeeNumber>746109</employeeNumber>
-      </teamMembers>
-    </teamMemberList>
-    <projectName>RWD</projectName>
-    <requirementList>
-      <requirements>
-        <requirementName>RWD1</requirementName>
-        <requirementCreationDate>
-          <month>12</month>
-          <year>2020</year>
-          <day>14</day>
-        </requirementCreationDate>
-        <requirementTimeEstimate>13</requirementTimeEstimate>
-        <taskList>
-          <tasks>
-            <finito>true</finito>
-            <taskTimeEstimate>13</taskTimeEstimate>
-            <highPriority>false</highPriority>
-            <totalTimeSpent>0</totalTimeSpent>
-            <taskDescription/>
-            <taskName>SDASD</taskName>
-            <id>647214</id>
-            <taskResponsible>Børge</taskResponsible>
-            <taskCreationDate>
-              <month>12</month>
-              <year>2020</year>
-              <day>14</day>
-            </taskCreationDate>
-          </tasks>
-        </taskList>
-        <checked>true</checked>
-        <requirementDescription>Øve RWD1</requirementDescription>
-        <priority>1</priority>
-        <status>Approved</status>
-      </requirements>
-      <requirements>
-        <requirementName>RWD2</requirementName>
-        <requirementCreationDate>
-          <month>12</month>
-          <year>2020</year>
-          <day>14</day>
-        </requirementCreationDate>
-        <requirementTimeEstimate>13</requirementTimeEstimate>
-        <taskList>
-          <tasks>
-            <finito>true</finito>
-            <taskTimeEstimate>13</taskTimeEstimate>
-            <highPriority>true</highPriority>
-            <totalTimeSpent>0</totalTimeSpent>
-            <taskDescription/>
-            <taskName>adfsaf</taskName>
-            <id>623453</id>
-            <taskResponsible>Børge</taskResponsible>
-            <taskCreationDate>
-              <month>12</month>
-              <year>2020</year>
-              <day>14</day>
-            </taskCreationDate>
-          </tasks>
-        </taskList>
-        <checked>true</checked>
-        <requirementDescription>Øve RWD2</requirementDescription>
-        <priority>2</priority>
-        <status>Rejected</status>
-      </requirements>
-      <requirements>
-        <requirementName>RWD3</requirementName>
-        <requirementCreationDate>
-          <month>12</month>
-          <year>2020</year>
-          <day>14</day>
-        </requirementCreationDate>
-        <requirementTimeEstimate>13</requirementTimeEstimate>
-        <taskList>
-          <tasks>
-            <finito>true</finito>
-            <taskTimeEstimate>13</taskTimeEstimate>
-            <highPriority>true</highPriority>
-            <totalTimeSpent>0</totalTimeSpent>
-            <taskDescription>DQWdqwdQDWQWD</taskDescription>
-            <taskName>ASFasfqwfwqwf</taskName>
-            <id>2833</id>
-            <taskResponsible>Børge</taskResponsible>
-            <taskCreationDate>
-              <month>12</month>
-              <year>2020</year>
-              <day>14</day>
-            </taskCreationDate>
-          </tasks>
-        </taskList>
-        <checked>true</checked>
-        <requirementDescription>Øve RWD3</requirementDescription>
-        <priority>3</priority>
-        <status>Ready for Review</status>
-      </requirements>
-      <requirements>
-        <requirementName>RWD4</requirementName>
-        <requirementCreationDate>
-          <month>12</month>
-          <year>2020</year>
-          <day>14</day>
-        </requirementCreationDate>
-        <requirementTimeEstimate>43</requirementTimeEstimate>
-        <taskList/>
-        <checked>false</checked>
-        <requirementDescription>Øve RWD4</requirementDescription>
-        <priority>4</priority>
-        <status>Not Done</status>
-      </requirements>
-      <requirements>
-        <requirementName>RWD5</requirementName>
-        <requirementCreationDate>
-          <month>12</month>
-          <year>2020</year>
-          <day>14</day>
-        </requirementCreationDate>
-        <requirementTimeEstimate>135</requirementTimeEstimate>
-        <taskList/>
-        <checked>false</checked>
-        <requirementDescription>this is a test area for long descriptions, such as this monstrosity Pneumonoultramicroscopicsilicovolcanoconiosis Pneumonoultramicroscopicsilicovolcanoconiosis Pneumonoultramicroscopicsilicovolcanoconiosis</requirementDescription>
-        <priority>5</priority>
-        <status>Not Done</status>
-      </requirements>
-    </requirementList>
-  </projects>
-  <projects>
-    <projectDeadline>
-      <month>12</month>
-      <year>2020</year>
-      <day>22</day>
-    </projectDeadline>
-	<percentageComplete>100</percentageComplete>
+    <percentageComplete>50</percentageComplete>
     <projectCreationDate>
       <month>12</month>
       <year>2020</year>
@@ -171,115 +15,178 @@
     <projectStartDate>
       <month>12</month>
       <year>2020</year>
-      <day>14</day>
+      <day>20</day>
     </projectStartDate>
     <projectEndDate>
       <month>12</month>
       <year>2020</year>
-      <day>14</day>
+      <day>15</day>
     </projectEndDate>
-    <projectDescription>Øvelse af SDJ for eksamen</projectDescription>
+    <projectDescription>Setting Christmas Decorations around the office</projectDescription>
     <teamMemberList>
       <teamMembers>
         <birthday>
-          <month>12</month>
-          <year>2020</year>
-          <day>8</day>
+          <month>7</month>
+          <year>1991</year>
+          <day>14</day>
         </birthday>
-        <memberName>Børge</memberName>
-        <employeeNumber>746109</employeeNumber>
+        <role>Project Creator</role>
+        <memberName>Line</memberName>
+        <employeeNumber>216668</employeeNumber>
+      </teamMembers>
+      <teamMembers>
+        <birthday>
+          <month>7</month>
+          <year>2001</year>
+          <day>23</day>
+        </birthday>
+        <role>Product Owner</role>
+        <memberName>Andreas</memberName>
+        <employeeNumber>405401</employeeNumber>
+      </teamMembers>
+      <teamMembers>
+        <birthday>
+          <month>11</month>
+          <year>2001</year>
+          <day>24</day>
+        </birthday>
+        <role>Team Member</role>
+        <memberName>Tobias</memberName>
+        <employeeNumber>412056</employeeNumber>
       </teamMembers>
     </teamMemberList>
-    <projectName>SDJ</projectName>
+    <projectName>Christmas Decorations</projectName>
     <requirementList>
       <requirements>
-        <requirementName>SDJ1</requirementName>
+        <requirementName>Christmas Tree</requirementName>
         <requirementCreationDate>
           <month>12</month>
           <year>2020</year>
-          <day>14</day>
+          <day>15</day>
         </requirementCreationDate>
-        <requirementTimeEstimate>13</requirementTimeEstimate>
+        <requirementTimeEstimate>4</requirementTimeEstimate>
         <taskList>
           <tasks>
             <finito>true</finito>
-            <taskTimeEstimate>13</taskTimeEstimate>
-            <highPriority>false</highPriority>
-            <totalTimeSpent>0</totalTimeSpent>
-            <taskDescription/>
-            <taskName>QWDQWD</taskName>
-            <id>536537</id>
-            <taskResponsible>Børge</taskResponsible>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>true</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Andreas</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>Find a fitting Christmastree. Preferably less than 300dkk and not too large. Also make sure it's decently symmetrical</taskDescription>
+            <taskName>Find a Tree</taskName>
+            <id>780028</id>
+            <taskResponsible>Andreas</taskResponsible>
             <taskCreationDate>
               <month>12</month>
               <year>2020</year>
-              <day>14</day>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+          <tasks>
+            <finito>false</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>true</highPriority>
+            <totalTimeSpent>0</totalTimeSpent>
+            <taskDescription>Find Christmastree decorations. A couple of boxes should be hidden somewhere in the office depot. Make sure you also bring the Star for the top</taskDescription>
+            <taskName>Find Decorations</taskName>
+            <id>453106</id>
+            <taskResponsible>Tobias</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+          <tasks>
+            <finito>false</finito>
+            <taskTimeEstimate>2</taskTimeEstimate>
+            <highPriority>false</highPriority>
+            <totalTimeSpent>0</totalTimeSpent>
+            <taskDescription>Decorate the tree with the Decorations</taskDescription>
+            <taskName>Decorate Tree</taskName>
+            <id>222846</id>
+            <taskResponsible>Line</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
             </taskCreationDate>
           </tasks>
         </taskList>
         <checked>true</checked>
-        <requirementDescription>Øve SDJ1</requirementDescription>
+        <requirementDescription>Find and Decorate a Christmastree</requirementDescription>
         <priority>1</priority>
-        <status>Approved</status>
+        <status>Not Done</status>
       </requirements>
       <requirements>
-        <requirementName>SDJ2</requirementName>
+        <requirementName>Office Doors</requirementName>
         <requirementCreationDate>
           <month>12</month>
           <year>2020</year>
-          <day>14</day>
+          <day>15</day>
         </requirementCreationDate>
-        <requirementTimeEstimate>13</requirementTimeEstimate>
+        <requirementTimeEstimate>2</requirementTimeEstimate>
         <taskList>
           <tasks>
             <finito>true</finito>
-            <taskTimeEstimate>13</taskTimeEstimate>
-            <highPriority>false</highPriority>
-            <totalTimeSpent>0</totalTimeSpent>
-            <taskDescription>QWDQWDQWD</taskDescription>
-            <taskName>QWDQWD</taskName>
-            <id>225594</id>
-            <taskResponsible>Børge</taskResponsible>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>true</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Line</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>Add some Decorations to the main enterence for the office. The visitors should have a very warm and Christmas'y welcome!</taskDescription>
+            <taskName>Main Door</taskName>
+            <id>810841</id>
+            <taskResponsible>Line</taskResponsible>
             <taskCreationDate>
               <month>12</month>
               <year>2020</year>
-              <day>14</day>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>false</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Tobias</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>Add a bit of Decoration around each of the smaller passing doors throughout the office. Not too much, you should still easily be able to get in or out. Also, don't block too much of the vision in case of fire</taskDescription>
+            <taskName>Passing Doors</taskName>
+            <id>32692</id>
+            <taskResponsible>Tobias</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
             </taskCreationDate>
           </tasks>
         </taskList>
         <checked>true</checked>
-        <requirementDescription>Øve SDJ2</requirementDescription>
+        <requirementDescription>Add decorations to the doors around the office</requirementDescription>
         <priority>2</priority>
-        <status>Approved</status>
-      </requirements>
-      <requirements>
-        <requirementName>SDJ3</requirementName>
-        <requirementCreationDate>
-          <month>12</month>
-          <year>2020</year>
-          <day>14</day>
-        </requirementCreationDate>
-        <requirementTimeEstimate>1356</requirementTimeEstimate>
-        <taskList>
-          <tasks>
-            <finito>true</finito>
-            <taskTimeEstimate>13</taskTimeEstimate>
-            <highPriority>false</highPriority>
-            <totalTimeSpent>0</totalTimeSpent>
-            <taskDescription>QWDQWDQWDQWD</taskDescription>
-            <taskName>qwdqwdqwdqwd</taskName>
-            <id>633257</id>
-            <taskResponsible>Børge</taskResponsible>
-            <taskCreationDate>
-              <month>12</month>
-              <year>2020</year>
-              <day>14</day>
-            </taskCreationDate>
-          </tasks>
-        </taskList>
-        <checked>true</checked>
-        <requirementDescription>Øve SDJ3</requirementDescription>
-        <priority>3</priority>
         <status>Approved</status>
       </requirements>
     </requirementList>
@@ -288,117 +195,692 @@
     <projectDeadline>
       <month>12</month>
       <year>2020</year>
-      <day>23</day>
+      <day>20</day>
     </projectDeadline>
-	<percentageComplete>0</percentageComplete>
+<percentageComplete>75</percentageComplete>
     <projectCreationDate>
       <month>12</month>
       <year>2020</year>
-      <day>16</day>
+      <day>15</day>
     </projectCreationDate>
     <projectStartDate>
       <month>12</month>
       <year>2020</year>
-      <day>14</day>
+      <day>15</day>
     </projectStartDate>
     <projectEndDate>
       <month>12</month>
       <year>2020</year>
-      <day>14</day>
+      <day>15</day>
     </projectEndDate>
-    <projectDescription>Øvelse af SSE for eksamen</projectDescription>
+    <projectDescription>Visitor Computer Setups</projectDescription>
     <teamMemberList>
       <teamMembers>
         <birthday>
-          <month>12</month>
-          <year>2020</year>
-          <day>8</day>
+          <month>7</month>
+          <year>2001</year>
+          <day>23</day>
         </birthday>
-        <memberName>Børge</memberName>
-        <employeeNumber>746109</employeeNumber>
+        <role>Project Creator</role>
+        <memberName>Andreas</memberName>
+        <employeeNumber>405401</employeeNumber>
+      </teamMembers>
+      <teamMembers>
+        <birthday>
+          <month>7</month>
+          <year>1991</year>
+          <day>14</day>
+        </birthday>
+        <role>Scrum Master</role>
+        <memberName>Line</memberName>
+        <employeeNumber>216668</employeeNumber>
+      </teamMembers>
+      <teamMembers>
+        <birthday>
+          <month>11</month>
+          <year>2001</year>
+          <day>24</day>
+        </birthday>
+        <role>Team Member</role>
+        <memberName>Tobias</memberName>
+        <employeeNumber>412056</employeeNumber>
       </teamMembers>
     </teamMemberList>
-    <projectName>SSE</projectName>
-    <requirementList/>
+    <projectName>Computer Setups</projectName>
+    <requirementList>
+      <requirements>
+        <requirementName>Power</requirementName>
+        <requirementCreationDate>
+          <month>12</month>
+          <year>2020</year>
+          <day>15</day>
+        </requirementCreationDate>
+        <requirementTimeEstimate>2</requirementTimeEstimate>
+        <taskList>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>true</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Andreas</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>Front Enterence power. 2 outlets on each side of the door, close to the walls</taskDescription>
+                        <taskName>Front Enterence</taskName>
+            <id>138003</id>
+            <taskResponsible>Andreas</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>false</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Tobias</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>5 outlets throughout the back room. Draw one between 2 tables so all cables reach</taskDescription>
+            <taskName>Back Rooms</taskName>
+            <id>387516</id>
+            <taskResponsible>Tobias</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+        </taskList>
+        <checked>true</checked>
+        <requirementDescription>Draw power outlets throughout the office to power the extra Computers</requirementDescription>
+        <priority>1</priority>
+        <status>Approved</status>
+      </requirements>
+      <requirements>
+        <requirementName>Network Connection</requirementName>
+        <requirementCreationDate>
+          <month>12</month>
+          <year>2020</year>
+          <day>15</day>
+        </requirementCreationDate>
+        <requirementTimeEstimate>2</requirementTimeEstimate>
+        <taskList>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>false</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Andreas</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>Draw a cable from the Hub under the ceiling down to the table Switch</taskDescription>
+            <taskName>Front Enterence</taskName>
+            <id>557272</id>
+            <taskResponsible>Andreas</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>true</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Tobias</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>2 Switches in the Back room. One to the south facing tables and one for the north facing tables</taskDescription>
+            <taskName>Back Room</taskName>
+            <id>890670</id>
+            <taskResponsible>Tobias</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+        </taskList>
+        <checked>true</checked>
+        <requirementDescription>Setup Switches</requirementDescription>
+        <priority>2</priority>
+        <status>Approved</status>
+      </requirements>
+      <requirements>
+        <requirementName>Computers</requirementName>
+        <requirementCreationDate>
+          <month>12</month>
+          <year>2020</year>
+          <day>15</day>
+        </requirementCreationDate>
+        <requirementTimeEstimate>12</requirementTimeEstimate>
+        <taskList>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>true</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Andreas</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>Computer 1; Front room</taskDescription>
+            <taskName>PC1</taskName>
+            <id>218156</id>
+            <taskResponsible>Andreas</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>true</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Andreas</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>Front Room</taskDescription>
+            <taskName>PC2</taskName>
+            <id>276465</id>
+            <taskResponsible>Andreas</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>false</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Line</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>South</taskDescription>
+            <taskName>PC3</taskName>
+            <id>298935</id>
+            <taskResponsible>Line</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>false</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Line</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>South</taskDescription>
+            <taskName>PC4</taskName>
+            <id>389813</id>
+            <taskResponsible>Line</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>false</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Line</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>South</taskDescription>
+            <taskName>PC5</taskName>
+            <id>33317</id>
+            <taskResponsible>Line</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>false</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Line</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>South</taskDescription>
+            <taskName>PC6</taskName>
+            <id>377205</id>
+            <taskResponsible>Line</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>false</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Tobias</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>South</taskDescription>
+            <taskName>PC7</taskName>
+            <id>69646</id>
+            <taskResponsible>Line</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>false</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Tobias</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>North</taskDescription>
+            <taskName>PC8</taskName>
+            <id>963884</id>
+            <taskResponsible>Tobias</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>false</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Tobias</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>North</taskDescription>
+            <taskName>PC9</taskName>
+            <id>80815</id>
+            <taskResponsible>Tobias</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>false</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Tobias</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>North</taskDescription>
+            <taskName>PC10</taskName>
+            <id>207751</id>
+            <taskResponsible>Tobias</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>false</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Tobias</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>North</taskDescription>
+            <taskName>PC11</taskName>
+            <id>19155</id>
+            <taskResponsible>Tobias</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>false</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Tobias</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>North</taskDescription>
+            <taskName>PC12</taskName>
+            <id>949910</id>
+            <taskResponsible>Tobias</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+        </taskList>
+        <checked>true</checked>
+        <requirementDescription>Setup all 12 Computers for the Visitors</requirementDescription>
+        <priority>1</priority>
+        <status>Approved</status>
+      </requirements>
+      <requirements>
+        <requirementName>Chairs</requirementName>
+        <requirementCreationDate>
+          <month>12</month>
+          <year>2020</year>
+          <day>15</day>
+        </requirementCreationDate>
+        <requirementTimeEstimate>2</requirementTimeEstimate>
+        <taskList>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>false</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Tobias</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>Find the chairs in the Depot. Might be a little messy</taskDescription>
+            <taskName>Bring Chairs</taskName>
+            <id>464365</id>
+            <taskResponsible>Tobias</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+          <tasks>
+            <finito>false</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>false</highPriority>
+            <totalTimeSpent>0</totalTimeSpent>
+            <taskDescription>Put 2 or 3 chairs around each Computer</taskDescription>
+            <taskName>Set the Chairs</taskName>
+            <id>575496</id>
+            <taskResponsible>Tobias</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+        </taskList>
+        <checked>false</checked>
+        <requirementDescription>Find chairs for each Computer</requirementDescription>
+        <priority>5</priority>
+        <status>Ready for Review</status>
+      </requirements>
+    </requirementList>
   </projects>
   <projects>
     <projectDeadline>
-      <month>12</month>
-      <year>2020</year>
-      <day>24</day>
-    </projectDeadline>
-	<percentageComplete>0</percentageComplete>
-    <projectCreationDate>
       <month>12</month>
       <year>2020</year>
       <day>17</day>
+    </projectDeadline>
+<percentageComplete>100</percentageComplete>
+    <projectCreationDate>
+      <month>12</month>
+      <year>2020</year>
+      <day>15</day>
     </projectCreationDate>
     <projectStartDate>
       <month>12</month>
       <year>2020</year>
-      <day>14</day>
+      <day>15</day>
     </projectStartDate>
     <projectEndDate>
       <month>12</month>
       <year>2020</year>
-      <day>14</day>
+      <day>15</day>
     </projectEndDate>
-    <projectDescription>Øvelse af MSE for eksamen</projectDescription>
+    <projectDescription>Bring Muffins to the Office</projectDescription>
     <teamMemberList>
       <teamMembers>
         <birthday>
-          <month>12</month>
-          <year>2020</year>
-          <day>8</day>
+          <month>7</month>
+          <year>1991</year>
+          <day>14</day>
         </birthday>
-        <memberName>Børge</memberName>
-        <employeeNumber>746109</employeeNumber>
+        <role>Project Creator</role>
+        <memberName>Line</memberName>
+        <employeeNumber>216668</employeeNumber>
       </teamMembers>
     </teamMemberList>
-    <projectName>MSE</projectName>
+    <projectName>Muffins</projectName>
     <requirementList>
       <requirements>
-        <requirementName>MSE1</requirementName>
+        <requirementName>Bring Lovely Muffins</requirementName>
         <requirementCreationDate>
           <month>12</month>
           <year>2020</year>
-          <day>14</day>
+          <day>15</day>
         </requirementCreationDate>
-        <requirementTimeEstimate>53</requirementTimeEstimate>
-        <taskList/>
-        <checked>false</checked>
-        <requirementDescription>Øve MSE1</requirementDescription>
+        <requirementTimeEstimate>3</requirementTimeEstimate>
+        <taskList>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>1</taskTimeEstimate>
+            <highPriority>true</highPriority>
+            <totalTimeSpent>1</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Line</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>Bake the BEST MUFFINS EVER</taskDescription>
+            <taskName>Bake Muffins</taskName>
+            <id>996606</id>
+            <taskResponsible>Line</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+          <tasks>
+            <finito>true</finito>
+            <taskTimeEstimate>2</taskTimeEstimate>
+            <highPriority>true</highPriority>
+            <totalTimeSpent>2</totalTimeSpent>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Line</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <documentations>
+              <documentationDate>
+                <month>12</month>
+                <year>2020</year>
+                <day>15</day>
+              </documentationDate>
+              <teamMemberName>Line</teamMemberName>
+              <timeSpentDocumentation>1</timeSpentDocumentation>
+            </documentations>
+            <taskDescription>Decorate the muffins to make them super pretty and very beautiful</taskDescription>
+            <taskName>Decorate Muffins</taskName>
+            <id>673394</id>
+            <taskResponsible>Line</taskResponsible>
+            <taskCreationDate>
+              <month>12</month>
+              <year>2020</year>
+              <day>15</day>
+            </taskCreationDate>
+          </tasks>
+        </taskList>
+        <checked>true</checked>
+        <requirementDescription>The Best Muffins EVER</requirementDescription>
         <priority>1</priority>
-        <status>Not Done</status>
-      </requirements>
-      <requirements>
-        <requirementName>MSE2</requirementName>
-        <requirementCreationDate>
-          <month>12</month>
-          <year>2020</year>
-          <day>14</day>
-        </requirementCreationDate>
-        <requirementTimeEstimate>135</requirementTimeEstimate>
-        <taskList/>
-        <checked>false</checked>
-        <requirementDescription>Øve MSE2</requirementDescription>
-        <priority>2</priority>
-        <status>Not Done</status>
-      </requirements>
-      <requirements>
-        <requirementName>MSE3</requirementName>
-        <requirementCreationDate>
-          <month>12</month>
-          <year>2020</year>
-          <day>14</day>
-        </requirementCreationDate>
-        <requirementTimeEstimate>76</requirementTimeEstimate>
-        <taskList/>
-        <checked>false</checked>
-        <requirementDescription>Øve MSE3</requirementDescription>
-        <priority>3</priority>
-        <status>Not Done</status>
+        <status>Approved</status>
       </requirements>
     </requirementList>
+  </projects>
+  <projects>
+    <projectDeadline>
+      <month>12</month>
+      <year>2020</year>
+      <day>17</day>
+    </projectDeadline>
+<percentageComplete>0</percentageComplete>
+    <projectCreationDate>
+      <month>12</month>
+      <year>2020</year>
+      <day>15</day>
+    </projectCreationDate>
+    <projectStartDate>
+      <month>12</month>
+      <year>2020</year>
+      <day>16</day>
+    </projectStartDate>
+    <projectEndDate>
+      <month>12</month>
+      <year>2020</year>
+      <day>15</day>
+    </projectEndDate>
+    <projectDescription>This is a testing Project
+It's for testing features</projectDescription>
+    <teamMemberList>
+      <teamMembers>
+        <birthday>
+          <month>11</month>
+          <year>2001</year>
+          <day>24</day>
+        </birthday>
+        <role>Project Creator</role>
+        <memberName>Tobias</memberName>
+        <employeeNumber>412056</employeeNumber>
+      </teamMembers>
+    </teamMemberList>
+    <projectName>Unfinished Project</projectName>
+    <requirementList/>
   </projects>
 </ProjectList>
