@@ -60,6 +60,12 @@ function xmlToDate(xmlDate, n) {
     return xmlDate.getElementsByTagName("day")[0].innerHTML + "/" + xmlDate.getElementsByTagName("month")[0].innerHTML + "-" + xmlDate.getElementsByTagName("year")[0].innerHTML;
 }
 
+function percentStatus(n) {
+    var percent = displayPercentageComplete(n);
+    var progressBar = "<div class='progress-bar bg-success' "
+        + "role='progressbar' style='width:" + percent + "%' aria-valuenow='" + percent + "' aria-valuemin='0' aria-valuemax='100'>TESTING PURPOSE</div>";
+    return progressBar;
+}
 
 var htmlList2 = "";
 var counter = 0;
@@ -70,35 +76,31 @@ var counterFinish = 0;
 
 function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
     for (var n = 0; n < projectsArray.length; n++) {
-        //Få en counter af projekter inde i dette projekt!
+        // Få en counter af projekter inde i dette projekt!
         htmlList2 += "<div class='row align-items-center m-2 bg-secondary'>"; //<ROW>
-        //Display Project Names over Tables
+        // Display Project Names over Tables
         htmlList2 += "<div class='col-md-4 text-center text-md-left p-3'>"; //<COL>
         htmlList2 += "<h3>" + displayProjectName(n) + "</h3></div>"; //</COL>
         htmlList2 += "<div class='col-md-4 text-center text-md-left p-3'>"; //<COL>
         htmlList2 += "<b>" + displayProjectDescription(n) + "</b></div>"; //</COL>
-        //Display Project Information over Tables
+        // Display Project Information over Tables
         htmlList2 += "</div><div class='row align-items-center m-2'>"; //</ROW><ROW>
-
+        // Project Starting Date
         htmlList2 += "<div class='bg-light col-md col-lg-3 col-xl-3 text-center text-md-left p-3'>"; //<COL>
         htmlList2 += "<b>Start:</b> " + displayProjectStartDate(n) + "</div>"; //</COL>
-
+        // Project Deadline
         htmlList2 += "<div class='bg-light col-md col-lg-3 col-xl-3 border border-solid text-center text-md-left p-3'>"; //<COL>
         htmlList2 += "<b>Deadline:</b> " + displayProjectDeadline(n) + "</div>"; //</COL>
+        // Status Progressbar
+        htmlList2 += "<div class='bg-light col-md border border-solid text-center text-md-left p-3'>"; //<COL>
+        htmlList2 += "<div class='row align-items-center'>"; //<ROW>
+        htmlList2 += "<div class='col-md-12 col-lg-2'><b>Status:</b></div>"; //<COL></COL>
+        htmlList2 += "<div class='col-md-12 col-lg'>" + percentStatus(n) + "</div></div></div></div>"; //<PROGRESSBAR></PROGRESS></COL></ROW></ROW>
 
-        htmlList2 += "<div class='bg-light col-md col-lg-3 col-xl-3 border border-solid text-center text-md-left p-3'>"; //<COL>
-        htmlList2 += "<b>Status:</b> " + displayPercentageComplete(n) + "% complete";
-
-        htmlList2 += "<div class=\"progress-bar progress-bar-striped progress-bar-animated\" role=\"progressbar\" " +
-            "aria-valuenow=\"" + displayPercentageComplete(n)+ "\" aria-valuemin=\"0\" aria-valuemax=\"100\"\n" +
-            "                        style=\"width:" + displayPercentageComplete(n)+ "%\">\n" +
-            "                    <span class=\"sr-only\">" + displayPercentageComplete(n)+ "% Complete</span>\n" +
-            "                  </div></div>";
-        //</COL>
-        //Project Information END
-        //Table Creation
+        // Project Information END
+        // Table Creation
         htmlList2 += "<div class='col-lg-12 col-xl'>"; //<COL>
-        htmlList2 += "<table id=Project class='bg-light'" + n + ">"; //<TABLE>
+        htmlList2 += "<table id=Project class='bg-light col-12'" + n + ">"; //<TABLE>
 
         var requirements = projectsArray[n].getElementsByTagName("requirements");
 
