@@ -74,9 +74,8 @@ var counter = 0;
 var counterFinish = 0;
 
 
-function generateProjectTableTest(projectsArray, target) {
+function generateProjectTable(projectsArray, target) {
     for (var n = 0; n < projectsArray.length; n++) {
-        // Få en counter af projekter inde i dette projekt!
         // Header row for Individual Projects
         htmlList2 += "<div class='row align-items-center m-2 bg-secondary'>"; //<ROW>
         // Header Information [Project Name, Project Description]
@@ -103,9 +102,10 @@ function generateProjectTableTest(projectsArray, target) {
         htmlList2 += "<div class='col-lg-12 col-xl'>"; //<COL>
         htmlList2 += "<table id=Project class='bg-light col-12'" + n + ">"; //<TABLE>
 
+        // Used for requirement counter in each project in the for loop below.
         var requirements = projectsArray[n].getElementsByTagName("requirements");
 
-        //Sæt data ind i projekt.
+        // Putting data into the table
         htmlList2 += "<tr> <td>Requirement</td> <td>Priority</td> <td>Estimated Time</td> <td>Status</td> <td>Description</td> </tr>";
         for (var j = counterFinish; j < (requirements.length + counterFinish); j++) {
             // console.log("Display requirement iteration: " + j);
@@ -122,11 +122,11 @@ function generateProjectTableTest(projectsArray, target) {
     target.innerHTML = htmlList2;
 }
 
-// table objects
-var requirementList = document.getElementById("RequirementList");
-
 // fetching array of projects from ProjectData.xml
 var projectsArray = projectDataXmlDoc.getElementsByTagName("projects");
 
+// table objects
+var requirementList = document.getElementById("RequirementList");
+
 // Generating project tables!
-generateProjectTableTest(projectsArray, requirementList);
+generateProjectTable(projectsArray, requirementList);
