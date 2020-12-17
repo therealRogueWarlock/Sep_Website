@@ -55,7 +55,7 @@ height: 256px;
 }
 
 
-/* Used to style our projects table*/
+/* Used to style our projects table with the id RequirementList*/
 #RequirementList table{
     border-collapse: collapse;
     margin: 10px;
