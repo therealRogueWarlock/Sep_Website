@@ -139,15 +139,3 @@ var projectsArray = projectDataXmlDoc.getElementsByTagName("projects");
 
 // Generating project tables!
 generateProjectTableTest(projectsArray, requirementList, projectDataXmlDoc);
-
-// This gets all requirements inside of projectsArray[1] - VIGTIG!!!!!!
-//var requirementTest2 = projectsArray[1].getElementsByTagName("requirements")
-//console.log(requirementTest2)
-
-//Den skal target requirements inde i de forskellige projekter! - noget i stil af det under???
-//var requirementsArray = projectDataXmlDoc.getElementsByTagName("requirements");
-//console.log("Projects total: " + projectsArray.length);
-//console.log("Requirements total: " + requirementsArray.length);
-
-
-// Generate table with projectinformation information from ProjectData.xml
