@@ -74,7 +74,7 @@ var counter = 0;
 var counterFinish = 0;
 
 
-function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
+function generateProjectTableTest(projectsArray, target) {
     for (var n = 0; n < projectsArray.length; n++) {
         // Få en counter af projekter inde i dette projekt!
         // Header row for Individual Projects
@@ -125,9 +125,8 @@ function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
 // table objects
 var requirementList = document.getElementById("RequirementList");
 
-
 // fetching array of projects from ProjectData.xml
 var projectsArray = projectDataXmlDoc.getElementsByTagName("projects");
 
 // Generating project tables!
-generateProjectTableTest(projectsArray, requirementList, projectDataXmlDoc);
+generateProjectTableTest(projectsArray, requirementList);
