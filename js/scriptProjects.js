@@ -74,14 +74,6 @@ var counter = 0;
 var counterFinish = 0;
 
 
-/*
-<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-                    <span class="sr-only">100% Complete</span>
-                  </div>
-*/
-
-
-
 function generateProjectTableTest(projectsArray, target, projectDataXmlDoc) {
     for (var n = 0; n < projectsArray.length; n++) {
         // Få en counter af projekter inde i dette projekt!
